@@ -1,6 +1,6 @@
 // C++ program to print DFS traversal from
 // a given vertex in a  given graph
-#include <bits/stdc++.h>
+    #include <bits/stdc++.h>
 using namespace std;
  
 // Graph class represents a directed graph
@@ -59,6 +59,8 @@ int main()
  
     // Function call
     g.DFS(3);
+
+    cout << endl;
  
     return 0;
 }
